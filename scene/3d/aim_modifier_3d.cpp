@@ -54,6 +54,7 @@ bool AimModifier3D::_set(const StringName &p_path, const Variant &p_value) {
 	return true;
 }
 
+// Test comment
 bool AimModifier3D::_get(const StringName &p_path, Variant &r_ret) const {
 	String path = p_path;
 
