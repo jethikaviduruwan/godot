@@ -57,6 +57,7 @@ void BoneAttachment3D::_validate_property(PropertyInfo &p_property) const {
 	}
 }
 
+//Check with born attachments
 PackedStringArray BoneAttachment3D::get_configuration_warnings() const {
 	PackedStringArray warnings = Node3D::get_configuration_warnings();
 
